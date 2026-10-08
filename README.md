@@ -1,5 +1,12 @@
 # Day 22 — DPO/ORPO Alignment Lab (Track 3)
 
+> ## 📌 Bài nộp — Nguyễn Tú Tài (2A202602455)
+>
+> - **Báo cáo:** [`submission/REFLECTION.md`](submission/REFLECTION.md)
+> - **Notebook đã chạy (Colab T4, NB1–NB4):** [`colab/Lab22_DPO_T4_fixed.ipynb`](colab/Lab22_DPO_T4_fixed.ipynb)
+> - **Ảnh chụp:** [`submission/screenshots/`](submission/screenshots/)
+> - **Sửa so với notebook gốc:** dataset SFT `5CD-AI/Vietnamese-alpaca-cleaned` không còn trên HF Hub → dùng `5CD-AI/Vietnamese-alpaca-gpt4-gg-translated`; gắn chat template `qwen-2.5` cho tokenizer Qwen2.5 base; gỡ `xformers` để train được trên T4 (compute 7.5).
+
 Lab cho **AICB-P2T3 · Ngày 22 · DPO/ORPO Alignment — From SFT to Preference Learning**.
 Build SFT-mini checkpoint → train DPO adapter → compare SFT-only vs SFT+DPO → merge + GGUF + serve.
 
@@ -24,7 +31,7 @@ Build SFT-mini checkpoint → train DPO adapter → compare SFT-only vs SFT+DPO 
 
 **Option 1: Free Colab (zero install)**
 
-[![Open T4 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<your-username>/Day22-Track3-DPO-Alignment-Lab/blob/main/colab/Lab22_DPO_T4.ipynb)
+[![Open T4 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<your-username>/K4-Track3-Day22-DPO-ORPO-Alignment/blob/main/colab/Lab22_DPO_T4.ipynb)
 
 Click → Runtime → Change runtime type → **T4 GPU** → Run all.
 

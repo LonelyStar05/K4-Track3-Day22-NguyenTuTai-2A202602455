@@ -4,8 +4,8 @@
 # UI). Just installs deps + auto-tier-detects + converts notebooks.
 #
 # Usage in Colab cell:
-#     !git clone https://github.com/<user>/Day22-Track3-DPO-Alignment-Lab.git
-#     %cd Day22-Track3-DPO-Alignment-Lab
+#     !git clone https://github.com/<user>/K4-Track3-Day22-DPO-ORPO-Alignment.git
+#     %cd K4-Track3-Day22-DPO-ORPO-Alignment
 #     !bash setup-colab.sh
 
 set -euo pipefail
